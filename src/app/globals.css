@@ -38,3 +38,17 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
+
+/* Global Page Titles & Breadcrumbs */
+.text-primary {
+  color: var(--accent-color) !important;
+}
+
+/* Hero Section */
+.hero .hero-bg::before {
+  content: "";
+  background: color-mix(in srgb, var(--background-color), transparent 15%);
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+}

@@ -10,9 +10,9 @@ export default function Navbar() {
         >
           <Image
             src="/assets/img/brand/okini.png"
-            className="h-100"
+            className="h-100 w-100"
             alt="Okini Project Logo"
-            width={150}
+            width={130}
             height={100}
           />
         </a>
