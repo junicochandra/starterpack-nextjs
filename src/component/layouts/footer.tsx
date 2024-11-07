@@ -1,5 +1,7 @@
-import React from "react";
-
 export default function Footer() {
-  return <></>;
+  return (
+    <footer>
+      <p className="text-center">Copyright © 2024</p>
+    </footer>
+  );
 }

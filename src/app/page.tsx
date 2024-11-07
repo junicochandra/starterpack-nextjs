@@ -1,12 +1,9 @@
-import Header from "@/component/layouts/header";
-import Footer from "@/component/layouts/footer";
+import Hero from "@/component/contents/hero";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <div>home</div>
-      <Footer />
+      <Hero></Hero>
     </>
   );
 }
