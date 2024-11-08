@@ -3,8 +3,8 @@ import "./globals.css";
 import Head from "next/head";
 
 // Components
-import Navbar from "@/component/layouts/navbar";
-import Footer from "@/component/layouts/footer";
+import Navbar from "@/components/layouts/navbar";
+import Footer from "@/components/layouts/footer";
 import "flowbite/dist/flowbite.min.css";
 
 // Font

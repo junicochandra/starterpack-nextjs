@@ -9,8 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        accent: {
+          50: "#E0F5FF",
+          100: "#B3E5FF",
+          200: "#80D4FF",
+          300: "#4DC3FF",
+          400: "#1AB1FF",
+          500: "#047ec4", // Warna utama `accent`
+          600: "#046BA4",
+          700: "#045584",
+          800: "#033F63",
+          900: "#022A43",
+        },
       },
     },
   },
