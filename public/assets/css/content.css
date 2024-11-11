@@ -1,0 +1,35 @@
+.line-animated {
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent-color), transparent);
+  position: relative;
+  margin-top: 15px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.line-animated::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--accent-color);
+  animation: slide 2s linear infinite !important;
+  border-radius: 15px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-slide {
+  animation: slide 2s linear infinite;
+}

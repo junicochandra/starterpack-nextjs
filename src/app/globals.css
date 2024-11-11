@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "../../public/assets/css/content.css";
 
 :root {
   --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
@@ -14,7 +15,8 @@
   --background-color: #ffffff;
   --default-color: #3d4348;
   --heading-color: #3e5055;
-  --accent-color: #047ec4;
+  /* --accent-color: #047ec4; */
+  --accent-color: #2563eb;
   --hover-color: #035e92;
   --surface-color: #ffffff;
   --contrast-color: #ffffff;
