@@ -3,7 +3,11 @@
 import flowbite from "flowbite-react/tailwind";
 
 module.exports = {
-  content: ["./src/app/**/*.{js,ts,jsx,tsx}", flowbite.content()],
+  content: [
+    "./src/components/contents/**/*.{js,jsx,ts,tsx}",
+    "./src/components/layouts/**/*.{js,jsx,ts,tsx}",
+    flowbite.content(),
+  ],
   theme: {
     screens: {
       xs: "375px",
